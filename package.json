@@ -1,0 +1,36 @@
+{
+  "name": "kata_tic_tac_toc",
+  "description": "tic tac toc problem resolved using tdd",
+  "version": "0.10.12",
+  "author": {
+    "name": "Kiko Beats",
+    "email": "josefrancisco.verdu@gmail.com",
+    "url": "https://github.com/Kikobeats"
+  },
+  "contributors":[{
+    "name": "Elena Torro",
+    "email": "elenatorro@gmail.com",
+    "url": "https://github.com/elenatorro"
+    }],
+  "dependencies": {
+    "coffee-script": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "keywords": [
+    "npm",
+    "dependency",
+    "resolved"
+  ],
+  "license": "MIT",
+  "repository": "Kikobeats/force-require",
+  "scripts": {
+    "test": "sh test/test.sh",
+    "prepublish": "npm prune"
+  }
+}
